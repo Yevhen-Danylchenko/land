@@ -1,0 +1,559 @@
+@charset "utf-8";
+/* css document */
+
+/* Refresh fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Flex:regular,400,600,700);
+
+@import "fonts";
+
+/* $fontFamily:"Roboto"; */
+
+/* Global value */
+
+:root{
+--fontFamily:"Roboto";
+--minWidth:320px;
+--maxWidthContainer: 1000px;
+--colorTitle: #000;
+--colorTitleTwo: #000;
+--colorParagraph: #000;
+--colorParagraphTwo: #fff;
+--colorParagraphHeader: #f7f5f0;
+--colorLink: #fff;
+--backgroundColorHeader: #000;
+--backgroundColorDiv: #000;
+}
+
+/* Header */
+
+.header-div{
+   position:absolute;
+
+   width: 1340px;
+   height: 37px;
+
+   background-color: var(--backgroundColorHeader);
+
+   top: 0px;
+   left: 0px;
+}
+
+.header-div-two{
+   position:absolute;
+
+   width: 556px;
+   height: 17px;
+
+   background-color: var(--backgroundColorHeader);
+
+   top: 9px;
+   left: 311px;
+}
+
+.header-div-par{
+   position:absolute;
+
+   width: 556px;
+   height: 17px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 16.9px;
+   letter-spacing: 0.36px;
+   text-align: center;
+
+   color: var(--colorParagraphHeader);
+
+   top: -13px;
+}
+
+.header-image {
+   position:absolute;
+
+   top: 82px;
+   left: 641px;
+}
+
+.header-title-img {
+   position:absolute;
+
+   top: 400.5px;
+   left: 103.16px;
+}
+
+.header-par {
+   position:absolute;
+
+   width: 357px;
+   height: 101px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 25.2px;
+   letter-spacing: 0.36px;
+
+   color: var(--colorParagraph);
+
+   top: 548px;
+   left: 282px;
+}
+
+.header-div-par-two{
+   position:absolute;
+
+   width: 130px;
+   height: 47px;
+
+   background-color: var(--backgroundColorDiv);
+
+   top: 688px;
+   left: 282px;
+}
+
+.header-div-link{
+   position:absolute;
+
+   width: 90px;
+   height: 25px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 15.6px;
+   letter-spacing: 0.71px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--colorParagraphTwo);
+
+   top: 15px;
+   left: 20px;
+}
+
+/* section logo */
+
+.logo{
+   position:absolute;
+
+   width: 1200px;
+   height: 400px;
+
+   top: 1050px;
+   left: 0px;
+}
+
+.logo-title{
+   position:absolute;
+
+   width: 119px;
+   height: 20px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 19.5px;
+   letter-spacing: 0.82px;
+   text-transform: uppercase;
+
+   color: var(--colorTitle);
+
+   top: 112px;
+   left: 540px;
+}
+
+.logo-vogue{
+   position:absolute;
+
+   top: 171px;
+   left: 250px;
+}
+
+.logo-glamour{
+   position:absolute;
+
+   top: 171px;
+   left: 511px;
+}
+
+.logo-theskimn{
+   position:absolute;
+
+   top: 171px;
+   left: 840px;
+}
+
+/* section clinically */
+
+.woumen-picture{
+   position:absolute;
+
+   top: 1526px;
+   left: 0px;
+}
+
+.clinically-title{
+   position:absolute;
+
+   width: 221px;
+   height: 27px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0.99px;
+   text-transform: uppercase;
+
+   color: var(--colorTitle);
+
+   top: 1583px;
+   left: 650px;
+}
+
+.clinically-par-logo{
+   position:absolute;
+
+   width: 138px;
+   height: 65px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 54px;
+   line-height: 64.8px;
+   letter-spacing: 0.6px;
+
+   color: var(--colorTitleTwo);
+
+   top: 1680px;
+   left: 650px;
+}
+
+.clinically-par{
+   position:absolute;
+
+   width: 400px;
+   height: 162px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing: 0.36px;
+   text-align: left;
+   text-transform: none;
+
+   color: var(--colorParagraph);
+
+   top: 1836px;
+   left: 650px;
+}
+
+.clinically-div{
+   position:absolute;
+
+   width: 147px;
+   height: 47px;
+
+   background-color: var(--backgroundColorDiv);
+
+   top: 2084px;
+   left: 675px;
+}
+
+.clinically-div-link{
+   position:absolute;
+
+   width: 120px;
+   height: 30px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15.6px;
+   letter-spacing: 0.71px;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--colorLink);
+
+   top: 15px;
+   left: 30px;
+}
+
+/* section video */
+
+.video{
+   position:absolute;
+
+   top: 2171px;
+   left: 100px;
+}
+
+/* section industry */
+
+.industry-title{
+   position:absolute;
+
+   width: 812px;
+   height: 39px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 39px;
+   letter-spacing: 0.6px;
+   text-align: center;
+   text-transform: none;
+
+   color: var(--colorTitleTwo);
+
+   top: 2987px;
+   left: 194px;
+}
+
+.industry-title-two{
+   position:absolute;
+
+   width: 444px;
+   height: 23px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 22.5px;
+   letter-spacing: 0.82px;
+   text-align: center;
+   text-transform: uppercase;
+
+   color: var(--colorTitleTwo);
+
+   top: 3045px;
+   left: 378px;
+}
+
+.industry-par{
+   position:absolute;
+
+   width: 76px;
+   height: 71px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 54px;
+   line-height: 70.2px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3153px;
+   left: 224px;
+}
+
+.industry-par-one{
+   position:absolute;
+
+   width: 24px;
+   height: 42px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41.6px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3191px;
+   left: 300px;
+}
+
+.industry-par-two{
+   position:absolute;
+
+   width: 114px;
+   height: 71px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 54px;
+   line-height: 70.2px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3153px;
+   left: 453px;
+}
+
+.industry-par-three{
+   position:absolute;
+
+   width: 24px;
+   height: 42px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41.6px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3191px;
+   left: 569px;
+}
+
+.industry-par-for{
+   position:absolute;
+
+   width: 152px;
+   height: 71px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 54px;
+   line-height: 70.2px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3153px;
+   left: 595px;
+}
+
+.industry-par-five{
+   position:absolute;
+
+   width: 114px;
+   height: 71px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 54px;
+   line-height: 70.2px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3153px;
+   left: 871px;
+}
+
+.industry-par-six{
+   position:absolute;
+
+   width: 24px;
+   height: 42px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 41.6px;
+   letter-spacing: 2.97px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3191px;
+   left: 985px;
+}
+
+.industry-par-seven{
+   position:absolute;
+
+   width: 144px;
+   height: 27px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 27px;
+   letter-spacing: 0.36px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3253px;
+   left: 195px;
+}
+
+.industry-par-eigth{
+   position:absolute;
+
+   width: 311px;
+   height: 27px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 27px;
+   letter-spacing: 0.36px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3253px;
+   left: 444px;
+}
+
+.industry-par-nigtn{
+   position:absolute;
+
+   width: 184px;
+   height: 27px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 27px;
+   letter-spacing: 0.36px;
+   text-align: center;
+
+   color: var(--colorParagraph);
+
+   top: 3253px;
+   left: 842px;
+}
+
+.industry-div{
+   position:absolute;
+
+   width: 356px;
+   height: 47px;
+
+   background-color: var(--backgroundColorDiv);
+
+   top: 3390px;
+   left: 422px;
+}
+
+.industry-div-link{
+   position:absolute;
+
+   width: 296px;
+   height: 16px;
+
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 13px;
+   line-height: 15.6px;
+   letter-spacing: 0.71px;
+   text-align: center;
+   text-decoration: none;
+   text-transform: uppercase;
+
+   color: var(--colorLink);
+
+   top: 15px;
+   left: 30px;
+}
